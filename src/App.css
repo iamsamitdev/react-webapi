@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body{
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: 'Prompt', sans-serif;
+}
+
+.content{
+    padding-top: 50px;
+}
+
+.navbar-light .navbar-toggler{
+    border:transparent;
+}
+
+.auth-content{
+    height:93vh;
+    width:100vw;
+    background-color:#e9ecef;
+}
+
+footer{
+    /* margin-top: 40px; */
+    background-color: #f8f9fa!important;
+    color: #212529;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foot-left{
+    text-align: left;
+}
+
+.foot-right{
+    text-align: right;
+}
+
+p.error{
+    margin-top: 8px;
+    font-size: 14px;
+    color: red;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .nav-item{
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .nav-item{
+        text-align: center !important;
+    }
+
+    .foot-left, .foot-right{
+        text-align: center;
+    }
+    .btn-action{
+        text-align: center;
+    }
+
+    .auth-content{
+        height: 120vh;
+        background-color: #ffffff; 
+    }
+
+    .card{
+        border: transparent;
+    }
+}
